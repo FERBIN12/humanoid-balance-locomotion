@@ -10,3 +10,6 @@ outputs/
 MUJOCO_LOG.TXT
 *.log
 .DS_Store
+
+# media used by the README
+!docs/media/*

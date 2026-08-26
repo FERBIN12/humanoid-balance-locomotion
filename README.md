@@ -6,6 +6,11 @@ a learned RL policy and ported to ROS 2 / Gazebo.
 
 90 Python modules, every constant measured rather than assumed.
 
+<p align="center">
+  <img src="docs/media/humanoid_walk.gif" width="480" alt="Unitree H1-2 walking in MuJoCo"/>
+</p>
+<p align="center"><em>H1-2 walking under the controller in this repository &mdash; MuJoCo, 51 actuated joints.</em></p>
+
 ## Goal
 
 A humanoid standing still is running a controller. If that controller stops, it
@@ -108,6 +113,10 @@ python walking/first_steps.py       # the classical walking stack
 python learned/deploy_loop.py       # the RL policy, end to end
 python terrain/failure_gallery.py   # every way it falls, and why
 ```
+
+<p align="center">
+  <img src="docs/media/h1_2_robot.png" width="420" alt="Unitree H1-2 in the MuJoCo scene"/>
+</p>
 
 **Robot:** Unitree H1-2, BSD-3-Clause, from `unitreerobotics/unitree_ros`.
 67.37 kg, CoM 0.941 m in the spawn pose, **6 DOF per leg including ankle pitch

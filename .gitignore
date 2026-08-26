@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.pt
+*.onnx
+*.mp4
+logs/
+outputs/
+MUJOCO_LOG.TXT
+*.log
+.DS_Store
